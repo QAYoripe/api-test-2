@@ -1,0 +1,29 @@
+# README #
+
+### What is this repository for? ###
+
+This is POC repo for API testing using Mocha-Chai
+
+### How to set it? ###
+
+**1.** Assume that you have Node installed
+
+**2.** Clone this repo
+
+**3.** Access the folder
+
+**4.** Copy environment
+```sh
+$ cp env.sample .env
+```
+
+**5.** Install all dependencies
+```sh
+$ npm install
+```
+
+**6.** Run Mocha API test
+```sh
+$ npm run test
+$ npm run test -- --grep @sprint1-TS001
+```
